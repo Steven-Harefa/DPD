@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="50dp"
+        tools:context=".Form_Ubah_Data">
+
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="320dp"
+            android:layout_height="35dp"
+            android:text="Ubah Data"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="320dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="60dp"
+            android:paddingStart="4dp"
+            android:text="Masukan NIK Yang Data Nya Dirubah"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName3"
+            android:layout_width="320dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="NIK"
+            android:textColorHint="#000000"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView22" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName8"
+            android:layout_width="320dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="No Induk Desa"
+            android:textColorHint="#000000"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.395"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName16" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName11"
+            android:layout_width="320dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="No. KK"
+            android:textColorHint="#000000"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName8" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName12"
+            android:layout_width="320dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Nama"
+            android:textColorHint="#000000"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName11" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName14"
+            android:layout_width="320dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Tempat Lahir"
+            android:textColorHint="#000000"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.505"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/spinner6" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:text="Cari "
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="320dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="30dp"
+            android:text="Status"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button7" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="320dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="20dp"
+            android:text="Jenis Kelamin"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:paddingStart="4dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName12" />
+
+        <Spinner
+            android:id="@+id/spinner6"
+            android:layout_width="320dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="5dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView25" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName15"
+            android:layout_width="320dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Tanggal Lahir"
+            android:textColorHint="#000000"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName14" />
+
+        <RadioButton
+            android:id="@+id/radioButton5"
+            android:layout_width="320dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="20dp"
+            android:text="Ubah NIK"
+            android:textColor="#000000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName16"
+            android:layout_width="320dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="NIK Baru"
+            android:textColorHint="#000000"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radioButton5" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="320dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="20dp"
+            android:text="Pendidikan"
+            android:paddingStart="4dp"
+            android:textAlignment="viewStart"
+            android:textColor="#000000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName15" />
+
+        <Spinner
+            android:id="@+id/spinner10"
+            android:layout_width="320dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="5dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView26" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="320dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="20dp"
+            android:text="Pekerjaan"
+            android:paddingStart="4dp"
+            android:textColor="#000000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/spinner10" />
+
+        <Spinner
+            android:id="@+id/spinner14"
+            android:layout_width="320dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView27" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="320dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="20dp"
+            android:text="Agama"
+            android:textAlignment="viewStart"
+            android:paddingStart="4dp"
+            android:textColor="#000000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/spinner14" />
+
+        <Spinner
+            android:id="@+id/spinner15"
+            android:layout_width="320dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="5dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView28" />
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="320dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="20dp"
+            android:text="Status Perkawinan"
+            android:paddingStart="4dp"
+            android:textColor="#000000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/spinner15" />
+
+        <Spinner
+            android:id="@+id/spinner16"
+            android:layout_width="320dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="5dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView29" />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="320dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="20dp"
+            android:text="Status Dalam Keluarga"
+            android:textAlignment="viewStart"
+            android:paddingStart="4dp"
+            android:textColor="#000000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/spinner16" />
+
+        <Spinner
+            android:id="@+id/spinner17"
+            android:layout_width="320dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="5dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView30" />
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="320dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="20dp"
+            android:text="Status Kesejahteraan"
+            android:paddingStart="4dp"
+            android:textAlignment="viewStart"
+            android:textColor="#000000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/spinner17" />
+
+        <Spinner
+            android:id="@+id/spinner18"
+            android:layout_width="320dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="5dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView31" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName20"
+            android:layout_width="320dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Nama Ayah"
+            android:textColorHint="#000000"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/spinner18" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName21"
+            android:layout_width="320dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Nama Ibu"
+            android:textColorHint="#000000"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName20" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName22"
+            android:layout_width="320dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Nama Kepala Keluarga"
+            android:textColorHint="#000000"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName21" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="30dp"
+            android:text="Simpan Perubahan"
+            android:textAlignment="center"
+            android:onClick="Siap"
+            android:textColor="#000000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName22" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
+

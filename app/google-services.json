@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "41020066790",
+    "project_id": "fir-pkti",
+    "storage_bucket": "fir-pkti.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:41020066790:android:878bee89595ec38cb12427",
+        "android_client_info": {
+          "package_name": "com.example.tugaspkti"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "41020066790-nd2tmopuivajm06elvfnl8d6l7ing47f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOR88O4a2HmwvLfo5J1WnKgW8zqGUeRvs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "41020066790-nd2tmopuivajm06elvfnl8d6l7ing47f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
